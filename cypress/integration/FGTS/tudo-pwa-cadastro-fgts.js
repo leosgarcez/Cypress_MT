@@ -46,5 +46,6 @@ describe("Cadastro FGTS", () => {
         cy.go('back');
         cy.contains('Política').click();
         cy.go('back');
+        
     })
 });
